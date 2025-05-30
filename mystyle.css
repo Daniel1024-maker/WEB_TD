@@ -1,0 +1,85 @@
+/* Em telas com tamanho máximo de 1024px, colocar a cor do fundo do site azul */
+@media screen and (max-width: 1024px) {
+body {
+    background-color: black;
+    color: white;
+}
+nav{
+    background-color: cyan;
+}
+a{
+    color: black;
+}
+.curriculo{
+    margin-left: 50;
+    text-align: justify;
+}
+}
+/* Em telas com no máximo 600px, colocar o fundo cor oliva */
+@media screen and (max-width: 600px) {
+body {
+    background-color: black;
+    color: white;
+}
+nav{
+    background-color: cyan;
+}
+a{
+    color: black;
+}
+.curriculo{
+    margin-left: 50;
+    text-align: justify;
+}
+}
+/* Em telas com no mínimo 1025px, colocar o fundo cor rosa */
+@media screen and (min-width: 1025px) {
+body {
+    background-color: black;
+    color: white;
+}
+nav{
+    background-color: cyan;
+}
+a{
+    color: black;
+}
+.curriculo{
+    margin-left: 50;
+    text-align: justify;
+}
+}
+/* Em telas com no mínimo 1025px, colocar o fundo cor rosa */
+@media screen and (min-width: 1025px) {
+body {
+    background-color: black;
+    color: white;
+}
+nav{
+    background-color: cyan;
+}
+a{
+    color: black;
+}
+.curriculo{
+    margin-left: 50;
+    text-align: justify;
+}
+}
+/* Em telas com no mínimo 600px e máximo 900px, colocar fundo vermelho */
+@media screen and (max-width: 900px) and (min-width: 600px) {
+body {
+    background-color: black;
+    color: white;
+}
+nav{
+    background-color: cyan;
+}
+a{
+    color: black;
+}
+.curriculo{
+    margin-left: 50;
+    text-align: justify;
+}
+}
